@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/simple-funnel-chart.svg)](https://www.npmjs.com/package/simple-funnel-chart) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Sample
+
+[![Simple Funnel Chart on React][screenshot]]
+
 ## Install
 
 ```bash
@@ -40,6 +44,20 @@ const App = () => {
 export default App
 ```
 
+## Properties
+
+| Name        | Type     | Required | Default | Description     | 
+| ----------- | -------- | -------- | ------- | --------------- |
+| data        | Array    | True     |         | Array of values |
+| width       | Int      | False    | 500     | Funnel width    |
+| hideLegend  | Bool     | False    | False   | Hide legend     |
+| rowHeight   | Int      | False    | 20      | Row height      |
+| onRowClick  | Function | False    |         | A function that is called when a row is clicked; an object with the value and name of the row is passed as a parameter |
+| fontSize    | String   | False    | "14px"  | Font size       |
+| marginText  | String   | False    | "-20px" | Margin for text, may be required at different font sizes |
+
 ## License
 
 MIT © [nekiyl1](https://github.com/nekiyl1)
+
+[screenshot]: screenshot.png
