@@ -6,7 +6,7 @@
 
 ## Sample
 
-[screenshot]
+![Simple Funnel Chart on React][screenshot]
 
 ## Install
 
