@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { Funnel } from '.'
 
-describe('ExampleComponent', () => {
+describe('Funnel', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(Funnel).toBeTruthy()
   })
 })

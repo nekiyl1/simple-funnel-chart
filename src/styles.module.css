@@ -1,9 +1,46 @@
-/* add css module styles here (optional) */
+.funnel_outer {
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.funnel_outer * {
+  box-sizing: border-box
+}
+
+.funnel_outer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.funnel_outer ul li {
+  float: left;
+  position: relative;
+  margin: 1px 0;
+  clear: both;
   text-align: center;
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.funnel_outer li span {
+  border-top-style: solid;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.funnel_outer ul li.not_last span {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top-width: 50px;
+}
+
+.funnel_outer ul li span p {
+  margin-top: -20px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
 }

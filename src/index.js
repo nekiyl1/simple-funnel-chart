@@ -1,6 +1,14 @@
 import React from 'react'
-import styles from './styles.module.css'
+import FunnelChart from './FunnelChart'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const Funnel = ({ data, width, hideLegend, rowHeight, onRowClick, fontSize, marginText }) => {
+  return <FunnelChart
+    data={data}
+    width={width}
+    hideLegend={hideLegend}
+    rowHeight={rowHeight}
+    onRowClick={onRowClick}
+    fontSize={fontSize}
+    marginText={marginText}
+  />
 }
