@@ -6,7 +6,7 @@
 
 ## Sample
 
-[![Simple Funnel Chart on React][screenshot]]
+[screenshot]
 
 ## Install
 
@@ -48,7 +48,7 @@ export default App
 
 | Name        | Type     | Required | Default | Description     | 
 | ----------- | -------- | -------- | ------- | --------------- |
-| data        | Array    | True     |         | Array of values |
+| data        | Array    | True     |         | Array of values { value: 0, name: 'Name' }|
 | width       | Int      | False    | 500     | Funnel width    |
 | hideLegend  | Bool     | False    | False   | Hide legend     |
 | rowHeight   | Int      | False    | 20      | Row height      |
